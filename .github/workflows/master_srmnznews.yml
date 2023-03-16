@@ -23,7 +23,7 @@ jobs:
           VALIDATE_ALL_CODEBASE: false
           DEFAULT_BRANCH: "master"
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          DISABLE_ERRORS: true
+          VALIDATE_YAML: false
 
   build:
     runs-on: windows-latest
